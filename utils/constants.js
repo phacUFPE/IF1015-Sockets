@@ -1,15 +1,20 @@
 const MESSAGES = {
+    CLIENT: {
+        ENTER_NICKNAME: 'Enter a nickname to join the chat: '
+    },
     INFO: {
         CLIENT_CONNECTED: 'INFO: Client connected.',
         CLIENT_DISCONNECTED: 'INFO: Client disconnected.',
         CONNECTED: 'INFO: You\'re connected.',
         CONNECTION_SHUTDOWN: 'INFO: Server connection shutdown.',
         DISCONNECTED: 'INFO: Disconnected.',
+        HAS_CONNECTED: 'has connected.',
+        HAS_DISCONNECTED: 'has disconnected.',
         SERVER_UNAVAILABLE: 'INFO: Server unavailable. Please try again later.'
     },
     SERVER: {
         CHAT_INFORMATION: 'SERVER: Welcome to PHAC chat\'s, to exit the chat type twice CTRL + C.'
-    }
+    },
 }
 
 const CODES = {
